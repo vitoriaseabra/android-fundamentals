@@ -1,78 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-=======
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> 6902563 (Add existing project files to Git)
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".ui.activity.FormularioProdutoActivity">
-
-    <EditText
-        android:id="@+id/nome"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome:"
-        android:layout_margin="16dp"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        tools:context=".ui.activity.FormularioProdutoActivity">
 
-    <EditText
-        android:id="@+id/descricao"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Descrição:"
-        android:inputType="text"
-        app:layout_constraintStart_toStartOf="@id/nome"
-        app:layout_constraintTop_toBottomOf="@id/nome"
-        app:layout_constraintEnd_toEndOf="@id/nome"/>
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Nome:"
+            android:layout_margin="16dp"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
-    <EditText
-        android:id="@+id/valor"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Valor:"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="@id/descricao"
-        app:layout_constraintTop_toBottomOf="@id/descricao"
-        app:layout_constraintEnd_toEndOf="@id/descricao"/>
+        <EditText
+            android:id="@+id/descricao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Descrição:"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="@id/nome"
+            app:layout_constraintTop_toBottomOf="@id/nome"
+            app:layout_constraintEnd_toEndOf="@id/nome"/>
 
-    <Button
-        android:id="@+id/button_salvar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Salvar"
-        app:layout_constraintVertical_bias="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/valor"/>
+        <EditText
+            android:id="@+id/valor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Valor:"
+            android:inputType="numberDecimal"
+            app:layout_constraintStart_toStartOf="@id/descricao"
+            app:layout_constraintTop_toBottomOf="@id/descricao"
+            app:layout_constraintEnd_toEndOf="@id/descricao"/>
+
+        <Button
+            android:id="@+id/button_salvar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Salvar"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/valor"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
-=======
-    tools:context=".ui.activity.FormularioProdutoActivity">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Teste" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> 6902563 (Add existing project files to Git)
